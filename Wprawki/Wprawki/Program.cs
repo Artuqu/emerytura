@@ -78,7 +78,7 @@ namespace Wprawki
 
         static void Main(string[] args)
         {
-            int x=3, y=5;
+            int x=-3, y=5;
             int z = 0;
             int u = x;
             do
