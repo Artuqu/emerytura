@@ -22,7 +22,7 @@ namespace WindowsFormsAppEmerytura
             string imie = textBoxImie.Text; // obiek na okienku
             int wiek = int.Parse(textBoxWiek.Text);
             if (wiek < wiekEmerytalny)
-                labelWynik.Text = $"Zostało Ci do emerytury {wiekEmerytalny - wiek} lat";
+                labelWynik.Text = $"Witaj {imie }!" + $" Zostało Ci do emerytury {wiekEmerytalny - wiek} lat.";
             else
                 labelWynik.Text = "Jesteś emerytem";
         }
